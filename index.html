@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xml:lang="es">
+<html lang="es">
   <head>
     <title>Sumador</title>
   </head>
@@ -7,13 +7,25 @@
     <h1>Sumador</h1>
     <form id="sumar-form">
       <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
+      <input type="number" id="primer-numero" name="primer-numero" />
       <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
+      <input type="number" id="segundo-numero" name="segundo-numero" />
       <input type="submit" value="Sumar" id="sumar-button" />
     </form>
-    <div id="resultado-div"></div>
 
+    <h2>Multiplicador</h2>
+    <form id="multiplicar-form">
+      <label for="primer-numero-mult">Primer número:</label>
+      <input type="number" id="primer-numero-mult" name="primer-numero-mult" />
+      <label for="segundo-numero-mult">Segundo número:</label>
+      <input type="number" id="segundo-numero-mult" name="segundo-numero-mult" />
+      <input type="submit" value="Multiplicar" id="multiplicar-button" />      
+    </form>
+    
+    <div id="resultado1-div"></div>
+    <div id="resultado2-div"></div>
+    
     <script type="module" src="./src/presenter.js"></script>
+    <script type="module" src="./src/presenter2.js"></script>
   </body>
 </html>

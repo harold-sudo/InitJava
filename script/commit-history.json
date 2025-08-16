@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-08-16T17:51:37.000Z",
+      "message": "Segundo commit: tarea",
+      "url": "https://github.com/harold-sudo/InitJava/commit/HEAD"
+    },
+    "stats": {
+      "total": 55,
+      "additions": 47,
+      "deletions": 8,
+      "date": "2025-08-16"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
